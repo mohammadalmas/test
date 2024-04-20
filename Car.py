@@ -1,3 +1,4 @@
+from Heater import Heater
 print ("Wellcome to here")
 class Car:
     def __init__(self,model,color,year):
@@ -11,6 +12,6 @@ class Car:
         return "This car is 'STOPING'"
     def turn_heater_on(self,temp):
         return self.heater.reach_request_temp()
-a = Car("benz","wight",2020)
-print(a)
-print(a.turn_heater_on(18))
+a = Car("benz","Black",2020)
+#print(a)
+#print(a.turn_heater_on(10))

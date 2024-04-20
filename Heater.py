@@ -1,4 +1,5 @@
-import  time
+import time
+from Sensor import Sensor
 class Heater:
     def __repr__(self):
         return f"{self.temp}"
